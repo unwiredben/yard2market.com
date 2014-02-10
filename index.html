@@ -2,14 +2,68 @@
 <html>
 <head>
 <title>Yard to Market Co-op</title>
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-<img src="YM_COOP.png" alt="Yard to Market Co-op">
-<br>
-<p>We are a Texas cooperative corporation that aims to connect
-market gardeners here in central Texas with buyers, both at the individual
-and instituional level.</p>
-<p>While we prepare our own website, you can buy produce from our
-members at <a href="http://www.yogardeneraustin.com/">YoGardener</a></p>
+<div class="container">
+
+<div class="jumbotron">
+<img src="YM_COOP_200.png" width="200" height="200" style="float:left; padding-right: 15px;" alt="Yard to Market Co-op">
+<div class="clearfix">
+<h1>Yard to Market Co-Op</h1>
+<p>connecting Central Texas market gardeners with individual &amp; institutional buyers</p>
+</div>
+</div>
+
+<p class="lead">We are an Austin, Texas based cooperative association of gardeners who grow food in our own
+yards. We sell produce online through our web store as well as through the weekly
+<a href="http://hopefarmersmarket.org/">HOPE Farmers Market</a> in east Austin. For more information,
+please visit our <a href="https://www.facebook.com/yardtomarket">Yard to Market Facebook page.</a></p>
+
+<div class="panel panel-default">
+<div class="panel-heading">Online Produce Store</div>
+<div class="panel-body">
+<div id="my-store-1775167">If you your browser does not support JavaScript, please proceed to its <a href="http://yogardeneraustin.ecwid.com">simple HTML version</a>.</div>
+<div>
+<script src="http://app.ecwid.com/script.js?1775167" charset="utf-8"></script>
+<script>
+    xProductBrowser("categoriesPerRow=3",
+    	"views=grid(3,3) list(10) table(20)",
+    	"categoryView=grid",
+    	"searchView=list",
+    	"id=my-store-1775167");
+</script>
+</div>
+</div>
+</div>
+
+<div class="well">
+<div class="row">
+<div class="col-md-4">
+<div class="fb-follow" data-href="https://www.facebook.com/yardtomarket" data-colorscheme="light" data-layout="standard" data-show-faces="false"></div>
+</div>
+<div class="col-md-4 col-md-offset-4">
+<a href="https://twitter.com/yardtomarket" class="twitter-follow-button" data-show-count="false">Follow @yardtomarket</a>
+</div>
+</div>
+</div>
+<div class="text-muted">Copyright &copy; 2014 Yard to Market Cooperative Association</div>
+
+<div id="fb-root"></div>
+<script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+</script>
 </body>
 </html>
